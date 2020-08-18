@@ -15,3 +15,4 @@ if __name__ == "__main__":
     content = get_url("https://www.nseindia.com/market-data/live-equity-market")
     content_html = BeautifulSoup(content, 'lxml')
     print(content_html)
+    print(content_html)
